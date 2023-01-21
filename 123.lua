@@ -135,9 +135,9 @@ Connection = RunService.RenderStepped:Connect(function()
                     return;
                 end
 
-                Highlight.Parent = Aimlock.Parent;
-                Highlight.FillColor = Framework.Fill
-                Highlight.OutlineColor = Framework.Outline
+                -- Highlight.Parent = Aimlock.Parent;
+                -- Highlight.FillColor = Framework.Fill
+                -- Highlight.OutlineColor = Framework.Outline
 
                 mousemoverel((Position.X - Mouse.X) * Framework.Sensitivity, (Position.Y - Mouse.Y) * Framework.Sensitivity)
             end
